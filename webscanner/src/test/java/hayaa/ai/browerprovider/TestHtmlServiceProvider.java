@@ -12,6 +12,7 @@ public class TestHtmlServiceProvider {
         List<Element> list=provider.getPageAllElement("http://dev.r.xieqj.cn");
         System.out.println(list);
     }
+
     @Test
     public void getLeafElement(){
         List<Element> list=provider.getLeafElement("http://dev.r.xieqj.cn");
