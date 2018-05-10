@@ -1,4 +1,4 @@
-package hayaa.ai.jauntProvider;
+package hayaa.ai.browerprovider;
 
 import com.jaunt.Element;
 import com.jaunt.JauntException;

@@ -1,4 +1,4 @@
-package hayaa.ai.jauntProvider;
+package hayaa.ai.browerprovider;
 
 import com.jaunt.Element;
 import org.junit.Test;
@@ -10,12 +10,12 @@ public class TestJauntServiceProvider {
 
     @Test
     public void getPageHtml() {
-        String html = jauntServiceProvider.getPageHtml("http://www.baidu.com");
+        String html = jauntServiceProvider.getPageHtml("http://dev.r.xieqj.cn");
         System.out.println(html);
     }
     @Test
     public void getPageTree() {
-        List<Element> html = jauntServiceProvider.getPageTree("http://www.baidu.com");
+        List<Element> html = jauntServiceProvider.getPageTree("http://dev.r.xieqj.cn");
         System.out.println(html);
     }
 }
